@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Install Python dependencies (pre-built wheels, no build-essential needed)
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir --progress-bar off -r requirements.txt
 
 # Copy application code
 COPY . .
