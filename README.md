@@ -4,6 +4,8 @@ This repository presents a machine learning technical demo focused on predicting
 
 The colab project is designed to showcase data preprocessing, feature engineering and model training practices rather than maximizing raw predictive performance. 
 
+Portfolio: https://noldo.fr
+
 ---
 
 ## Dataset
@@ -11,9 +13,8 @@ The colab project is designed to showcase data preprocessing, feature engineerin
 The cleaned dataset is hosted on **noldo.fr**:
 
 https://noldo.fr/dev/ml/vl-model-installation-time/installation_data_clean_v2.csv  
-https://noldo.fr
 
-It contains installation durations along with software, version, and add-on metadata.
+It contains installation durations along with software, version and add-on metadata.
 
 ---
 
@@ -22,7 +23,7 @@ It contains installation durations along with software, version, and add-on meta
 Data exploration and cleaning are documented in:
 
 ```
-colab/01_exploration_and_cleaning.ipynb
+colab/01_exploration_and_cleaning.py (originally was ipynb but changed for Github)
 ````
 
 Key steps:
@@ -37,7 +38,7 @@ Key steps:
 ## Modeling Approach
 
 ```
-colab/02_training_and_evaluation.ipynb
+colab/02_training_and_evaluation.py
 ````
 
 The training script demonstrates:
